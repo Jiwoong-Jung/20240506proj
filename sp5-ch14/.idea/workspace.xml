@@ -4,7 +4,81 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18ba78d6-52e8-4bea-a5dd-7805d00fabd4" name="Changes" comment="" />
+    <list default="true" id="18ba78d6-52e8-4bea-a5dd-7805d00fabd4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../_sb0423/src/main/java/com/sky/_sb0423/controller/ListCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0423/src/main/java/com/sky/_sb0423/controller/MemberDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0423/src/main/java/com/sky/_sb0423/controller/MemberListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0423/src/main/webapp/WEB-INF/tags/formatDateTime.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0423/src/main/webapp/WEB-INF/views/member/invalidId.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0423/src/main/webapp/WEB-INF/views/member/memberDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0423/src/main/webapp/WEB-INF/views/member/memberList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0423/src/main/webapp/WEB-INF/views/member/memberList2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0423/src/main/webapp/WEB-INF/views/member/noMember.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/controller/ChangePwdCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/controller/ChangePwdCommandValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/controller/ChangePwdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/controller/ListCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/controller/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/controller/LoginCommandValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/controller/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/controller/MemberDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/controller/MemberListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/controller/RegisterRequestValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/interceptor/AuthCheckInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/interceptor/LoggerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/pizza/controller/PizzaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/pizza/entity/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/pizza/repository/PizzaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/practice/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/practice/dto/InputRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/spring/AuthInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/spring/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/spring/ChangePasswordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/spring/DuplicateMemberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/spring/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/spring/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/spring/MemberListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/spring/MemberNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/spring/MemberRegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/spring/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/sp5ch14/spring/WrongIdPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/message/label.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/sol-1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/visitor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/sol-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/formatDateTime.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit/changePwdForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit/changedPwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login/loginForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login/loginSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/invalidId.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/memberDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/memberList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/noMember.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pizza/form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pizza/orderList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pizza/orderList2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pizza/orderList3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pizza/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/practice/form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/practice/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register/memberList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register/step1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register/step2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register/step3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/survey/submitted.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/survey/surveyForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_sb0423/src/main/java/com/sky/_sb0423/spring/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_sb0423/src/main/java/com/sky/_sb0423/spring/MemberDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_sb0423/src/main/webapp/WEB-INF/views/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../_sb0423/src/main/webapp/WEB-INF/views/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fileUploadBoard/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../fileUploadBoard/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,29 +92,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Jiwoong-Jung"
-  }
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="7b0ed0f2-ea15-4fb0-b347-b58d7104b65f" />
-        <option name="url" value="https://github.com/Jiwoong-Jung/20240506proj.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2fq4YLpe9VRaYWkMZLVcpXrJ7Sb" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,9 +118,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.Sp5Ch14Application.executor": "Run",
-    "git-widget-placeholder": "choongang__desktop",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/admin/Documents/GitHub/20240506proj/sp5-ch14",
+    "last_opened_file_path": "D:/_dev/intelli/sp5-ch14/src/main/java/com/sky/sp5ch14",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -101,7 +161,6 @@
       <option name="presentableId" value="Default" />
       <updated>1714515323287</updated>
       <workItem from="1714515324347" duration="1098000" />
-      <workItem from="1714518113075" duration="188000" />
     </task>
     <servers />
   </component>
