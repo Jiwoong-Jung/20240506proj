@@ -32,7 +32,6 @@ dependencies {
     testImplementation 'org.springframework.security:spring-security-test'
 
     implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5'
-
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 //     https://mvnrepository.com/artifact/org.springframework.security.oauth.boot/spring-security-oauth2-autoconfigure
     implementation group: 'org.springframework.security.oauth.boot', name: 'spring-security-oauth2-autoconfigure', version: '2.6.8'
