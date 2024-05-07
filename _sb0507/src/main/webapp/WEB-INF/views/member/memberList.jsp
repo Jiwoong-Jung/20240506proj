@@ -10,10 +10,10 @@
 <body>
     <form:form modelAttribute="cmd">
     <p>
-        <label>from: <form:input path="from" /></label>
+        <label>from:<input type="datetime-local" id="from" name="from" value="2024-04-28T10:00" /></label>
         <form:errors path="from" />
         ~
-        <label>to:<form:input path="to" /></label>
+        <label>to:<input type="datetime-local" id="to" name="to" value="2024-05-07T17:00" /></label>
         <form:errors path="to" />
         <input type="submit" value="조회">
     </p>
