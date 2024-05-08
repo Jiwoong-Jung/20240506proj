@@ -39,4 +39,8 @@ public class TestController {
         public String handleNumberFormatException() {
         return "member/invalidId";
     }
+    @ExceptionHandler(TestException.class)
+    public String testException() {
+        return "test/error";
+    }
 }
