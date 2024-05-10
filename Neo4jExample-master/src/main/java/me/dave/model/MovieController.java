@@ -1,6 +1,5 @@
 package me.dave.model;
 
-import me.dave.person.Person;
 import org.neo4j.ogm.session.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
