@@ -1,7 +1,6 @@
 package me.dave.model;
 
 import me.dave.person.Person;
-import me.dave.person.PersonRepository;
 import org.neo4j.ogm.session.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -17,8 +16,6 @@ public class MovieController {
     @Autowired
     private UserRepository userRepository;
 
-    @Autowired
-    private PersonRepository personRepository;
 
     @GetMapping
     public List<User> getAll() {
@@ -27,18 +24,18 @@ public class MovieController {
     }
 
     @PostMapping
-    public Person createPerson(@RequestBody Person person) {
-        return personRepository.save(person);
+    public User createUser(@RequestBody User user) {
+        return userRepository.save(user);
     }
 
     @PutMapping("/{id}")
-    public Person updatePerson(@PathVariable Long id, @RequestBody Person person) {
-        person.setId(id);
-        return personRepository.save(person);
+    public User updateUser(@PathVariable Long id, @RequestBody User user) {
+        user.setId(id);
+        return userRepository.save(user);
     }
 
     @DeleteMapping("/{id}")
-    public void deletePerson(@PathVariable Long id) {
-        personRepository.deleteById(id);
+    public void deleteUser(@PathVariable Long id) {
+        userRepository.deleteById(id);
     }
 }
