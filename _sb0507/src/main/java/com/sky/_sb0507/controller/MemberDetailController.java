@@ -10,6 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequiredArgsConstructor
@@ -37,4 +38,11 @@ public class MemberDetailController {
 		return "member/noMember";
 	}
 
+
+	//----------------------------------------------------------------------------------
+	@GetMapping("/memb/{id}")
+	@ResponseBody
+	public Member detail_r(@PathVariable("id") Long memId) {
+		return memberDao.selectById(memId);
+	}
 }

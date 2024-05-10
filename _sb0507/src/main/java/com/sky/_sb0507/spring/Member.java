@@ -1,13 +1,20 @@
 package com.sky._sb0507.spring;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.time.LocalDateTime;
 
 public class Member {
 
 	private Long id;
 	private String email;
+
+	@JsonIgnore
 	private String password;
 	private String name;
+
+	@JsonFormat(pattern = "yyyy-MM-dd")
 	private LocalDateTime registerDateTime;
 
 	public Member(String email, String password, 
