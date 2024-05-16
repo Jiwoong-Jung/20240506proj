@@ -11,6 +11,6 @@ public class MyController {
     @GetMapping("/test")
     @ResponseBody
     public String test(@RequestParam long id) {
-        return "테스트 "+id;
+        return "Test "+id;
     }
 }
